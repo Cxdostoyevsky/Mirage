@@ -1,5 +1,6 @@
 import torch
-from transformers import Qwen2_5_VLForConditionalGeneration, AutoProcessor
+from transformer.src.transformers.models.qwen2_5_vl.modeling_qwen2_5_vl import Qwen2_5_VLForConditionalGeneration
+from transformer.src.transformers.models.qwen2_5_vl.processing_qwen2_5_vl import AutoProcessor
 import os
 import json
 import logging
